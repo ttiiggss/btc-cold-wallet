@@ -300,7 +300,7 @@ def self_test():
 
     if not ok:
         raise SystemExit("SELF-TEST FAILED — no key generated.")
-    print("Self-test OK: 18 vectors passed (SHA-256, RIPEMD-160, secp256k1, Base58Check).")
+    print("Self-test OK: 13 vectors passed (SHA-256, RIPEMD-160, secp256k1, Base58Check).")
 
 
 # ===================== main =====================
